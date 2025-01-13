@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import p1 from "../assets/projects/p1.jpg";
+import p2 from "../assets/projects/p2.jpg";
+import p3 from "../assets/projects/p3.jpg";
+import p4 from "../assets/projects/p4.jpg";
+import p5 from "../assets/projects/p5.jpg";
 
 export const HERO_CONTENT = `I am a Junior Front-End developer with knowledge of HTML, CSS, JavaScript and React. After graduating from the Kyiv Polytechnic Institute, I started to work in web sites optimization. My experience in web sites seo helps me a lot in understanding how web sites and applications work. Now I want to look into this from the other side, learn how to correctly and efficiently develop sites and applications.`;
 
@@ -45,32 +46,45 @@ Preparing analytical reports using Google Analytics, Yandex Metrica.`,
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    title: "WikiCountries",
+    git: "https://github.com/bogdanilchenko1987/nextjs-countries",
+    url: "https://nextjs-countries-beta.vercel.app/",
+    image: p1,
+    description: "Countries search project using RestCountries Api and Next.js",
+    technologies: ["REACT", "TYPESCRIPT", "NEXT.JS"],
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    title: "Hangman-game",
+    git: "https://github.com/bogdanilchenko1987/hangman-game",
+    url: "https://bogdanilchenko1987.github.io/hangman-game/",
+    image: p2,
+    description: "A simple word guessing online game project",
+    technologies: ["REACT", "TYPESCRIPT", "VITE"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Phonebook",
+    git: "https://github.com/bogdanilchenko1987/react-phonebook",
+    url: "https://bogdanilchenko1987.github.io/react-phonebook/",
+    image: p3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Online phone book project with authorization and editing of contacts",
+    technologies: ["REACT", "REDUX"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    title: "MovieDB",
+    git: "https://github.com/bogdanilchenko1987/react-movies",
+    url: "https://bogdanilchenko1987.github.io/react-movies/",
+    image: p4,
+    description: "Movie search project using Movie DB Api",
+    technologies: ["REACT", "REST API"],
+  },
+  {
+    title: "Mui-shop",
+    git: "https://github.com/bogdanilchenko1987/mui-shop-project",
+    url: "https://bogdanilchenko1987.github.io/mui-shop-project/",
+    image: p5,
+    description: "Main page of an online shop using Material UI",
+    technologies: ["REACT", "MUI"],
   },
 ];
 
