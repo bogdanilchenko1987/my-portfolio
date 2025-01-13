@@ -7,7 +7,7 @@ const Contacts = () => {
       <div className="text-center tracking-tighter">
         <p className="my-4">{CONTACT.address}</p>
         <p className="my-4">{CONTACT.phone}</p>
-        <a href="#" className="border-b">
+        <a href="mailto:bogdan_ilchenko@ukr.net" className="border-b">
           {CONTACT.email}
         </a>
       </div>
