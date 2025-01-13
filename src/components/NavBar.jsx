@@ -1,4 +1,3 @@
-// import logo from "../assets/kevinRushLogo.png";
 import logo from "../assets/mountains.png";
 
 import {
