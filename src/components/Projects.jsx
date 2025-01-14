@@ -41,10 +41,10 @@ const Projects = () => {
               <a href={project.git} target="_blank">
                 <h6 className="mb-2 font-semibold">{project.title}</h6>
               </a>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              <p className="mb-4 text-neutral-500">{project.description}</p>
               {project.technologies.map((tech, idx) => (
                 <span
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  className="mr-2 rounded bg-neutral-800 px-2 py-1 text-sm font-medium text-purple-700"
                   key={idx}
                 >
                   {tech}

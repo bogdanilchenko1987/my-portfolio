@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/logo.jpg";
 import { motion } from "framer-motion";
@@ -7,7 +8,7 @@ const container = (delay) => ({
   visible: { x: 0, opacity: 1, transition: { duration: 0.5, delay: delay } },
 });
 
-const Hero = () => {
+const Hero = ({ lightMode }) => {
   return (
     // <div className="border-b border-neutral-900 pb-4 lg:mb-35">
     <div className=" pb-4 lg:mb-35">
@@ -26,7 +27,11 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
+              className={
+                lightMode
+                  ? "bg-black bg-clip-text text-3xl tracking-tight text-transparent font-semibold"
+                  : `bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent`
+              }
             >
               FrontEnd Developer
             </motion.span>
